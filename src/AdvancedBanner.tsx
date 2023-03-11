@@ -12,8 +12,8 @@ export const AdvancedBannerTop = () => {
     };
 
     const headline: BannerLayer = {
-        translateY: [0, 30],
-        scale: [1, 1.05, "easeOutCubic"],
+        translateY: [0, 50],
+        scale: [1, 1.55, "easeOutCubic"],
         shouldAlwaysCompleteAnimation: true,
         expanded: false,
         children: (
@@ -27,7 +27,7 @@ export const AdvancedBannerTop = () => {
         image:
             "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-foreground.png",
         translateY: [0, 15],
-        scale: [1, 1.1, "easeOutCubic"],
+        scale: [1, 1.1, "easeInCubic"],
         shouldAlwaysCompleteAnimation: true
     };
 
